@@ -14,7 +14,7 @@ require Exporter;
 @ISA = qw(Exporter);
 
 
-$VERSION = do { my @r = (q$Revision: 0.01 $ =~ /\d+/g); sprintf "%d."."%02d" x $#r, @r };
+$VERSION = do { my @r = (q$Revision: 0.02 $ =~ /\d+/g); sprintf "%d."."%02d" x $#r, @r };
 
 @EXPORT_OK = qw(
 	id_get
@@ -125,7 +125,7 @@ sub _mode {
 
 Michael Robinton <michael@bizsystems.com>
 
-=head1 COPYRIGHT 2012
+=head1 COPYRIGHT 2012-2014
 
 Michael Robinton <michael@bizsystems.com>
 
